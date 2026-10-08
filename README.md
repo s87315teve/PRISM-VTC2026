@@ -1,5 +1,7 @@
 <div align="center">
 
+**English** | [繁體中文](README_zh-TW.md)
+
 # PRISM: Physics-Radio Integrated Simulation and Management for V2X Digital Twins
 
 **Chia-Chuan Chiu<sup>\*</sup>, Ming-Chun Lee<sup>\*</sup>, Yung-Sheng Chao<sup>†</sup>, Li-Chun Wang<sup>\*</sup>**
