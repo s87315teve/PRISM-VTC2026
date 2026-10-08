@@ -1,0 +1,75 @@
+[
+    {
+        "target": "wireless_env",
+        "message_type": "initialize",
+        "wireless_params": {
+            "channel_coding_type": "LDPC",
+            "batch_size": 128,
+            "num_streams_per_tx": 1,
+            "num_bits_per_symbol": 2,
+            "num_ofdm_symbol": 14,
+            "fft_size" : 256,  
+            "coderate": 0.9,
+            "tx_power": 20,
+            "noise": -101,
+            "subcarrier_spacing": 30e3,
+            "num_tx": 1,
+            "tx_pattern": "elliptical_beam",
+            "tx_list":{
+                "rsu":{
+                    "x_pos": 340,
+                    "y_pos": 80,
+                    "z_pos": 12,
+                    "yaw_carla": -110,
+                    "pitch_carla": 0,
+                    "roll_carla": 0
+                }
+            },
+            "rx_list":{
+                "rx01":{
+                    "x_pos": 0,
+                    "y_pos": 0,
+                    "z_pos": -100
+                }
+            }
+        },
+        "wireless_environment": {
+            "scene_name": "my_scene/nycu_carla_v7_add_plane_yf_mirror/nycu_carla_v7_add_plane_yf_mirror.xml",
+            "frequency": 28e9
+        }
+    },
+    {
+        "target": "wireless_env",
+        "message_type": "update_antenna_pattern",
+        "pattern":"elliptical_beam",
+        "steering_angle": -30
+    },
+    {
+        "target": "visualizer",
+        "message_type": "set_dataset_writer",
+        "dataset_root":"./dataset",
+        "scenario_id":"scenario_temp",
+        "queue_size":100,
+        "num_workers":4
+    },
+    {
+        "target": "wireless_env",
+        "message_type": "set_dataset_writer",
+        "dataset_root":"./dataset",
+        "scenario_id":"scenario_temp",
+        "queue_size":100,
+        "num_workers":4
+        
+    },
+    {
+        "target": "visualizer",
+        "message_type": "test_set_carla",
+        "time_unit" : 0.1,
+        "number_of_other_vehicles" : 0
+    },
+    {
+        "target": "visualizer",
+        "message_type": "update_world"
+    }
+    
+]
