@@ -205,9 +205,6 @@ If you find PRISM useful in your research, please cite:
 
 > The official BibTeX will be updated once the proceedings are published.
 
-## Acknowledgement
-
-This work was partially funded by the National Science and Technology Council, Taiwan, under Grants 114-2221-E-A49-185-MY3, 113-2218-E-A49-027-, 114-2224-E-A49-002- and 114-2218-E-A49-019-. It was also supported by the Higher Education Sprout Project of National Yang Ming Chiao Tung University and the Ministry of Education (MOE), Taiwan.
 
 PRISM builds on [Sionna](https://github.com/NVlabs/sionna) and [CARLA](https://github.com/carla-simulator/carla). Map data © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, available under the [Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/).
 
