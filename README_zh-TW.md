@@ -205,9 +205,6 @@ python run_scheduler.py
 
 > 正式的 BibTeX 會在論文集出版後更新。
 
-## 致謝
-
-本研究部分由國家科學及技術委員會補助（計畫編號 114-2221-E-A49-185-MY3、113-2218-E-A49-027-、114-2224-E-A49-002-、114-2218-E-A49-019-），並由教育部高等教育深耕計畫支持國立陽明交通大學。
 
 PRISM 建構於 [Sionna](https://github.com/NVlabs/sionna) 與 [CARLA](https://github.com/carla-simulator/carla) 之上。地圖資料 © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors，採用 [Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/) 授權。
 
